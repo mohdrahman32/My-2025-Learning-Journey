@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: #0F172A;
+}
+.navbar-brand{
+    color: #ffffff;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.nav-item a{
+    color: #CBD5E1;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+.active{
+    color: #1D4ED8;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bg-hero{
+    background-color: #0F172A;
+    height: 100vh;
+}
+.small-into{
+    color: #2563EB;
+    font-size: 14px;
+}
+.title{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 800;
+}
+.sub-title{
+    color: #CBD5E1;
+    font-family: inter;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.stat-card{
+    background-color: #1E293B;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+}
+.stat-card h1{
+    color: #ffffff;
+    font-size: 14px;
+}
+.stat-card p{
+    color: #CBD5E1;
+    font-size: 8px;
+}
+
+.hero-card{
+    background-color: #1E293B;
+    border-radius: 20px;
+}
+.hero-card h1{
+    color: #ffffff;
+    font-size: 30px;
+}
+.hero-card p{
+    color: #CBD5E1;
+}
+.stat-title {
+    color: #2563EB;
+}
+
+.j-title{
+    color: #0F172A;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 32px;
+}
+.j-para{
+    color: #64748B;
+    font-size: 14px;
+    font-family: inter;
+    font-style: italic;
+}
+.j1-bg{
+    background-color: #1E40AF;
+    border: 2px solid #acc2ff;
+    border-radius: 10px;
+}
+.j2-bg{
+    background-color: #166534;
+    border: 2px solid #A7F3D0;
+    border-radius: 10px;
+}
+.j3-bg{
+    background-color: #B45309;
+    border: 2px solid #FDE68A;
+    border-radius: 10px;
+}
+.j4-bg{
+    background-color: #991B1B;
+    border: 2px solid #FECACA;
+    border-radius: 10px;
+}
+.jcard-title{
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+}
+.jcard-subtitle{
+    font-family: inter;
+    font-size: 14px;
+    font-style: oblique;
+}
+.jcard-list li{
+    color: #E5E7EB;
+    font-size: 15px;
+    font-family: inter;
+}
+.button-container {
+  display: flex;
+  gap: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jbtn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+/* Python: Blue and Yellow gradient/theme */
+.btn-python {
+
+  background-color: #0065b8; /* Python Blue */
+  border-bottom: 4px solid #ffd343; /* Python Yellow highlight */
+}
+/* SQL: Standard Database Grey/Blue */
+.btn-sql {
+  background-color: #336791; /* PostgreSQL/SQL blue-grey */
+  border-bottom: 4px solid #274d6e;
+}
+/* Power BI: Gold/Yellow */
+.btn-powerbi {
+  background-color: #f2c811; /* Power BI Yellow */
+  color: #000; /* Black text for better contrast on yellow */
+  border-bottom: 4px solid #d8b20d;
+}
+/* Tableau: Uses a specific multi-colored brand blue */
+.btn-tableau {
+  background: linear-gradient(135deg, #1f437d 80%, #e97627 10%); /* Signature Blue to Orange */
+  border-bottom: 4px solid #112a52;
+}
+
+/* Machine Learning: Deep Tech Purple / Indigo */
+.btn-ml {
+  background-color: #6366f1; /* Modern Indigo/AI Teal */
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  border-bottom: 4px solid #4338ca;
+}
+/* HTML: Official HTML5 Orange */
+.btn-html {
+  background-color: #E34F26;
+  border-bottom: 4px solid #B53E1E;
+}
+
+/* CSS: Official CSS3 Blue */
+.btn-css {
+  background-color: #1572B6;
+  border-bottom: 4px solid #0D5080;
+}
+
+/* Bootstrap: Official Purple */
+.btn-bootstrap {
+  background-color: #7952B3;
+  border-bottom: 4px solid #563D7C;
+}
+/* Logic: Emerald Green (Representing "True" or "Signal High") */
+.btn-logic {
+  background-color: #10b981;
+  border-bottom: 4px solid #059669;
+}
+
+.project-section{
+    background-color: #0F172A;
+}
+.p-title{
+    color:antiquewhite;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 32px;
+}
+.p-para{
+    color: #CBD5E1;
+    font-size: 14px;
+    font-family: inter;
+    font-style: italic;
+}
+.p-card{
+    background-color: #1E293B;
+    border-radius: 12px;
+}
+.card-img-top{
+    border-radius: 12px;
+}
+.badge{
+    background-color: #2563EB;
+    color: #ffffff;
+}
+.pcard-title{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.pcard-description{
+    font-size: 14px;
+    font-family: Inter;
+    color: #CBD5E1;
+}
+.modal-body{
+    font-family: Inter;
+    color: #475569;
+}
+.modal-sub{
+    font-size: 13px;
+    font-style: italic;
+}
+.section-title{
+    font-family: Poppins;
+    font-size: 14px;
+    color: #0F172A;
+}
+.data{
+    font-size: 12px;
+}
+.btn-github{
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+.btn-web{
+    background-color:#059669;
+    color: #ffffff;
+}
+
+#carouselExampleFade {
+    max-height: 75vh;
+    overflow: hidden;
+}
+
+#carouselExampleFade img {
+    max-height: 75vh;
+    object-fit: contain;
+}
+
+.skill-card{
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+.skill-title{
+    color: #FFFFFF;
+    background-color: #0F172A;
+    font-family: Poppins;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.skill{
+    color: #0F172A;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.certificate-section{
+    background-color: #0F172A;
+}
+
+/* Roadmap Section */
+.roadmap-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+/* Titles */
+.roadmap-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #0F172A;
+}
+
+.roadmap-subtitle {
+  font-family: 'Inter', sans-serif;
+  color: #64748B;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Accordion Items */
+.roadmap-item {
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+/* Accordion Button */
+.roadmap-item .accordion-button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #0F172A;
+  background-color: #F8FAFC;
+  box-shadow: none;
+}
+
+.roadmap-item .accordion-button:not(.collapsed) {
+  background-color: #0F172A;
+  color: #FFFFFF;
+}
+
+.roadmap-item .accordion-button i {
+  color: #2563EB;
+}
+
+.roadmap-item .accordion-button:not(.collapsed) i {
+  color: #FFFFFF;
+}
+
+/* Accordion Body */
+.roadmap-item .accordion-body {
+  font-family: 'Inter', sans-serif;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.roadmap-item ul {
+  padding-left: 18px;
+}
+
+.roadmap-item ul li {
+  margin-bottom: 6px;
+}
+
+.offcanvas {
+  background-color: #0F172A;
+}
+
+/* Headings */
+.offcanvas-title {
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-size: 28px;
+}
+
+.offcanvas-sub {
+  font-family: Inter;
+  color: #CBD5E1;
+  font-size: 15px;
+  font-style: oblique;
+  line-height: 1.6;
+}
+
+/* Divider styling */
+.divider {
+  border: none;
+  border-top: 1px solid rgba(203, 213, 225, 0.25);
+  margin: 12px 0;
+}
+
+.divider-sm {
+  border: none;
+  border-top: 1px solid rgba(203, 213, 225, 0.20);
+  margin: 10px 0;
+}
+
+/* Contact details */
+.contact-details {
+  list-style-type: none;
+  color: #ffffff;
+  padding-left: 0;
+}
+
+.contact-details li {
+  margin-bottom: 8px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-details a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Inter;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.contact-details i {
+  color: #2563EB;
+  font-size: 14px;
+}
+
+/* Social icons */
+.contact-social {
+  font-size: 28px;
+  color: #CBD5E1;
+  padding: 0;
+}
+
+.contact-social:hover {
+  color: #ffffff;
+}
+
+.contact-social-wrap {
+  margin-top: 5px;
+}
+
+/* Closing text */
+.closing-text {
+  color: #94A3B8;
+  font-family: Poppins;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.resume-btn {
+  padding: 14px 22px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-radius: 12px;
+  color: #fff;
+  background: linear-gradient(135deg, #4f46e5, #0ea5e9);
+  border: none;
+  text-align: center;
+  transition: all 0.35s ease;
+  box-shadow: 0 8px 25px rgba(79, 70, 229, 0.35);
+}
+
+.resume-btn i {
+  font-size: 1.2rem;
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(14, 165, 233, 0.45);
+  color: #fff;
+}
+
+
+
+/* Footer Base */
+.site-footer {
+  background-color: #0F172A;
+  padding: 60px 0 30px;
+  margin-top: 80px;
+}
+
+/* Brand */
+.footer-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+/* Divider */
+.footer-divider {
+  border: none;
+  height: 1px;
+  background-color: #1E293B;
+  margin: 24px auto;
+  max-width: 800px;
+}
+
+/* Reflection & Direction */
+.footer-message {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  color: #CBD5E1;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.footer-message p {
+  margin-bottom: 16px;
+}
+
+/* Copyright */
+.footer-copy {
+  font-size: 14px;
+  color: #94A3B8;
+  margin-bottom: 4px;
+}
+
+.footer-tagline {
+  font-size: 13px;
+  color: #64748B;
+  margin-bottom: 0;
+}
